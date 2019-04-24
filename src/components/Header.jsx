@@ -14,10 +14,10 @@ class Header extends React.Component {
 
   onKeyDown = (event) => {
     const { value } = this.state
-    const { onSubmit } = this.state
+    const { onSubmit } = this.props
 
     if (event.keyCode === ENTER) {
-      console.log(value)
+  
       onSubmit(value)
 
       this.setState({
