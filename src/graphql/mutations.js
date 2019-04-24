@@ -6,6 +6,7 @@ export const createTodo = `mutation CreateTodo($input: CreateTodoInput!) {
     id
     name
     description
+    completed
   }
 }
 `;
@@ -14,6 +15,7 @@ export const updateTodo = `mutation UpdateTodo($input: UpdateTodoInput!) {
     id
     name
     description
+    completed
   }
 }
 `;
@@ -22,6 +24,7 @@ export const deleteTodo = `mutation DeleteTodo($input: DeleteTodoInput!) {
     id
     name
     description
+    completed
   }
 }
 `;
