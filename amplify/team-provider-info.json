@@ -10,5 +10,17 @@
             "StackName": "appsync-demo-20190424131922",
             "StackId": "arn:aws:cloudformation:us-east-1:726774721869:stack/appsync-demo-20190424131922/7c613bf0-66bd-11e9-817a-0e9ab7cb9104"
         }
+    },
+    "develop": {
+        "awscloudformation": {
+            "AuthRoleName": "appsync-demo-20190430151334-authRole",
+            "UnauthRoleArn": "arn:aws:iam::726774721869:role/appsync-demo-20190430151334-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::726774721869:role/appsync-demo-20190430151334-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "appsync-demo-20190430151334-deployment",
+            "UnauthRoleName": "appsync-demo-20190430151334-unauthRole",
+            "StackName": "appsync-demo-20190430151334",
+            "StackId": "arn:aws:cloudformation:us-east-1:726774721869:stack/appsync-demo-20190430151334/6edfda10-6b84-11e9-b8b5-0a933e7926f6"
+        }
     }
 }
